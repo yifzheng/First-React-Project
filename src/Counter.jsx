@@ -33,9 +33,9 @@ class Counter extends Component {
         return (
             <div id="counter">
                 <h1 float>Current Count: {this.state.count}</h1>
-                <button className='increment' onClick={(e) => this.increment(e)}>Increment</button>
-                <button className='decrement' onClick={(e) => this.decrement(e)}>Decrement</button>
-                <button className='reset' onClick={(e) => this.reset(e)}>Reset</button>
+                <button className='increment' onClick={() => this.increment()}>Increment</button>
+                <button className='decrement' onClick={() => this.decrement()}>Decrement</button>
+                <button className='reset' onClick={() => this.reset()}>Reset</button>
             </div>
         );
     }

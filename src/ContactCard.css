@@ -1,0 +1,21 @@
+body{
+    background-color: thistle;
+}
+#content {
+    border-radius: 50px;;
+    text-align : center;
+    background-color: linen;
+    width: 500px;
+    height: 270px;
+    margin-left : 5%;
+    margin-top: 3%;
+    position: relative;
+    float: left;
+    border: 2px solid steelblue;
+}
+h2{
+    font-size: 1vw;  
+}
+#contact-name{
+    margin-top: 3%;
+}
